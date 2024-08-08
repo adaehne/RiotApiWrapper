@@ -1,8 +1,8 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\Request;
+namespace Adaehne\RiotApiWrapper\Request;
 
-use Callisto\RiotApiWrapper\Exceptions\RequestExceptions;
+use Adaehne\RiotApiWrapper\Exceptions\RequestExceptions;
 use Symfony\Component\HttpClient\CachingHttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 

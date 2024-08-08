@@ -1,10 +1,10 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\TFT;
+namespace Adaehne\RiotApiWrapper\TFT;
 
-use Callisto\RiotApiWrapper\Exceptions\RequestExceptions;
-use Callisto\RiotApiWrapper\Regions;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\Exceptions\RequestExceptions;
+use Adaehne\RiotApiWrapper\Regions;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
 
 class Summoner
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\LOL;
+namespace Adaehne\RiotApiWrapper\LOL;
 
-use Callisto\RiotApiWrapper\LOL\ChampionMastery;
-use Callisto\RiotApiWrapper\LOL\Champion;
-use Callisto\RiotApiWrapper\LOL\Clash;
-use Callisto\RiotApiWrapper\LOL\LeagueExp;
-use Callisto\RiotApiWrapper\LOL\League;
-use Callisto\RiotApiWrapper\LOL\Challenges;
-use Callisto\RiotApiWrapper\LOL\Status;
-use Callisto\RiotApiWrapper\LOL\Matches;
-use Callisto\RiotApiWrapper\LOL\Spectator;
-use Callisto\RiotApiWrapper\LOL\Summoner;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\LOL\ChampionMastery;
+use Adaehne\RiotApiWrapper\LOL\Champion;
+use Adaehne\RiotApiWrapper\LOL\Clash;
+use Adaehne\RiotApiWrapper\LOL\LeagueExp;
+use Adaehne\RiotApiWrapper\LOL\League;
+use Adaehne\RiotApiWrapper\LOL\Challenges;
+use Adaehne\RiotApiWrapper\LOL\Status;
+use Adaehne\RiotApiWrapper\LOL\Matches;
+use Adaehne\RiotApiWrapper\LOL\Spectator;
+use Adaehne\RiotApiWrapper\LOL\Summoner;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
 
 class LOL
 {
@@ -28,7 +28,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\ChampionMastery
+     * @return \Adaehne\RiotApiWrapper\LOL\ChampionMastery
      */
     public function ChampionMastery(string $platform) :ChampionMastery
     {
@@ -37,7 +37,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Champion
+     * @return \Adaehne\RiotApiWrapper\LOL\Champion
      */
     public function Champion(string $platform): Champion
     {
@@ -46,7 +46,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Clash
+     * @return \Adaehne\RiotApiWrapper\LOL\Clash
      */
     public function Clash(string $platform): Clash
     {
@@ -55,7 +55,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\LeagueExp
+     * @return \Adaehne\RiotApiWrapper\LOL\LeagueExp
      */
     public function LeagueExp(string $platform): LeagueExp
     {
@@ -64,7 +64,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\League
+     * @return \Adaehne\RiotApiWrapper\LOL\League
      */
     public function League(string $platform): League
     {
@@ -73,7 +73,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Challenges
+     * @return \Adaehne\RiotApiWrapper\LOL\Challenges
      */
     public function Challenges(string $platform): Challenges
     {
@@ -82,7 +82,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Status
+     * @return \Adaehne\RiotApiWrapper\LOL\Status
      */
     public function Status(string $platform): Status
     {
@@ -91,7 +91,7 @@ class LOL
 
     /**
      * @param string $region
-     * @return \Callisto\RiotApiWrapper\LOL\Matches
+     * @return \Adaehne\RiotApiWrapper\LOL\Matches
      */
     public function Matches(string $region): Matches
     {
@@ -100,7 +100,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Spectator
+     * @return \Adaehne\RiotApiWrapper\LOL\Spectator
      */
     public function Spectator(string $platform): Spectator
     {
@@ -109,7 +109,7 @@ class LOL
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\LOL\Summoner
+     * @return \Adaehne\RiotApiWrapper\LOL\Summoner
      */
     public function Summoner(string $platform): Summoner
     {

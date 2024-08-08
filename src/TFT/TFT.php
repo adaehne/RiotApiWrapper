@@ -1,12 +1,12 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\TFT;
+namespace Adaehne\RiotApiWrapper\TFT;
 
-use Callisto\RiotApiWrapper\TFT\League;
-use Callisto\RiotApiWrapper\TFT\Matches;
-use Callisto\RiotApiWrapper\TFT\Status;
-use Callisto\RiotApiWrapper\TFT\Summoner;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\TFT\League;
+use Adaehne\RiotApiWrapper\TFT\Matches;
+use Adaehne\RiotApiWrapper\TFT\Status;
+use Adaehne\RiotApiWrapper\TFT\Summoner;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
 
 class TFT
 {
@@ -21,7 +21,7 @@ class TFT
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\TFT\League
+     * @return \Adaehne\RiotApiWrapper\TFT\League
      */
     public function League(string $platform): League
     {
@@ -30,7 +30,7 @@ class TFT
 
     /**
      * @param string $region
-     * @return \Callisto\RiotApiWrapper\TFT\Matches
+     * @return \Adaehne\RiotApiWrapper\TFT\Matches
      */
     public function Matches(string $region): Matches
     {
@@ -39,7 +39,7 @@ class TFT
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\TFT\Status
+     * @return \Adaehne\RiotApiWrapper\TFT\Status
      */
     public function Status(string $platform): Status
     {
@@ -48,7 +48,7 @@ class TFT
 
     /**
      * @param string $platform
-     * @return \Callisto\RiotApiWrapper\TFT\Summoner
+     * @return \Adaehne\RiotApiWrapper\TFT\Summoner
      */
     public function Summoner(string $platform): Summoner
     {

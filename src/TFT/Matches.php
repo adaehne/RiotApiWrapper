@@ -1,12 +1,12 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\TFT;
+namespace Adaehne\RiotApiWrapper\TFT;
 
-use Callisto\RiotApiWrapper\Exceptions\RequestExceptions;
-use Callisto\RiotApiWrapper\Regions;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
-use Callisto\RiotApiWrapper\TFT\Options\LeagueOPT;
-use Callisto\RiotApiWrapper\TFT\Options\MatchesOPT;
+use Adaehne\RiotApiWrapper\Exceptions\RequestExceptions;
+use Adaehne\RiotApiWrapper\Regions;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\TFT\Options\LeagueOPT;
+use Adaehne\RiotApiWrapper\TFT\Options\MatchesOPT;
 
 class Matches
 {

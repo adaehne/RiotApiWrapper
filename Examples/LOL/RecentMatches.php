@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../../vendor/autoload.php';
 
-$raw = new \Callisto\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); //Init RiotApiWrapper
+$raw = new \Adaehne\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); //Init RiotApiWrapper
 $raw->Cache(); // (Optional) Enable cache.
 
 
@@ -28,6 +28,6 @@ try {
 
 }Catch(Exception $exception){
     exit($exception->getMessage());
-}Catch(\Callisto\RiotApiWrapper\Exceptions\RequestExceptions $exception){
+}Catch(\Adaehne\RiotApiWrapper\Exceptions\RequestExceptions $exception){
     exit($exception->getMessage());
 }

@@ -25,14 +25,14 @@ Vote history :
 To install this project run
 
 ```bash
-composer require callisto/riot-api-wrapper
+composer require Adaehne/riot-api-wrapper
 ```
 
 **RAW requires Symfony 6.2 or later and php 8.0 or later**
 ## Usage
 
 ```php
-$raw = new \Callisto\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY');
+$raw = new \Adaehne\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY');
 ```
 To get your api key, create an account on Riot's developer portal. Then, go to the dashboard and click on the button to generate a development key.
 To get a permanent key, register your application on the Riot Games developer site and wait for approval. Once approved, you can access Riot's API with your permanent API key.
@@ -187,7 +187,7 @@ Regions list
 
 require __DIR__ . '/../../vendor/autoload.php';
 
-$raw = new \Callisto\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); // Init RiotApiWrapper
+$raw = new \Adaehne\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); // Init RiotApiWrapper
 $raw->Cache(); // (Optional) Enable cache.
 
 
@@ -213,7 +213,7 @@ try {
 
 }Catch(Exception $exception){
     exit($exception->getMessage());
-}Catch(\Callisto\RiotApiWrapper\Exceptions\RequestExceptions $exception){
+}Catch(\Adaehne\RiotApiWrapper\Exceptions\RequestExceptions $exception){
     exit($exception->getMessage());
 }
 ```
@@ -223,7 +223,7 @@ try {
 
 $name = 'example'; // Summoner name to search
 
-$raw = new \Callisto\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); // Init RiotApiWrapper
+$raw = new \Adaehne\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); // Init RiotApiWrapper
 $raw->Cache(); // (Optional) Enable cache.
 
 $searchPlatform =  ['BR1','EUN1','EUW1','JP1','KR','LA1','LA2']; // Select platforms you want to search on
@@ -234,7 +234,7 @@ try {
         $results[$platform] = $raw->LOL()->Summoner($platform)->byName($name); // Save result even if empty
     }
     
-}catch (\Callisto\RiotApiWrapper\Exceptions\RequestExceptions $exception){
+}catch (\Adaehne\RiotApiWrapper\Exceptions\RequestExceptions $exception){
     exit($exception->getMessage());
 } catch (Exception $e) {
     exit($e->getMessage());
@@ -250,7 +250,7 @@ print_r($results);
 
 require __DIR__ . '/../../vendor/autoload.php';
 
-$raw = new \Callisto\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); //Init RiotApiWrapper
+$raw = new \Adaehne\RiotApiWrapper\RiotApiWrapper('YOUR_API_KEY'); //Init RiotApiWrapper
 $raw->Cache(); // (Optional) Enable cache.
 
 try {
@@ -269,7 +269,7 @@ try {
 
 } catch (Exception $exception) {
     exit($exception->getMessage());
-} catch (\Callisto\RiotApiWrapper\Exceptions\RequestExceptions $exception) {
+} catch (\Adaehne\RiotApiWrapper\Exceptions\RequestExceptions $exception) {
     exit($exception->getMessage());
 }
 ```

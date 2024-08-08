@@ -1,6 +1,6 @@
 <?php
 
-namespace Callisto\RiotApiWrapper;
+namespace Adaehne\RiotApiWrapper;
 
 class Regions
 {

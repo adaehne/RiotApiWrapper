@@ -1,10 +1,10 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\Riot;
+namespace Adaehne\RiotApiWrapper\Riot;
 
-use Callisto\RiotApiWrapper\Exceptions\RequestExceptions;
-use Callisto\RiotApiWrapper\Regions;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\Exceptions\RequestExceptions;
+use Adaehne\RiotApiWrapper\Regions;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
 use http\Encoding\Stream;
 use Symfony\Component\HttpClient\CachingHttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

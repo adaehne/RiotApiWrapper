@@ -1,6 +1,6 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\Request;
+namespace Adaehne\RiotApiWrapper\Request;
 
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

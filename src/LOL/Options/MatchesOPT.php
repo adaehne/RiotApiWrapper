@@ -1,6 +1,6 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\LOL\Options;
+namespace Adaehne\RiotApiWrapper\LOL\Options;
 
 class MatchesOPT
 {

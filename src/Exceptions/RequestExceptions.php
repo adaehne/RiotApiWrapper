@@ -1,6 +1,6 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\Exceptions;
+namespace Adaehne\RiotApiWrapper\Exceptions;
 
 use Throwable;
 

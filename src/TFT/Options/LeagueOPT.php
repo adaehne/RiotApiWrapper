@@ -1,6 +1,6 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\TFT\Options;
+namespace Adaehne\RiotApiWrapper\TFT\Options;
 
 class LeagueOPT
 {

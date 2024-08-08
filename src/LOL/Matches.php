@@ -1,11 +1,11 @@
 <?php
 
-namespace Callisto\RiotApiWrapper\LOL;
+namespace Adaehne\RiotApiWrapper\LOL;
 
-use Callisto\RiotApiWrapper\Exceptions\RequestExceptions;
-use Callisto\RiotApiWrapper\LOL\Options\MatchesOPT;
-use Callisto\RiotApiWrapper\Regions;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\Exceptions\RequestExceptions;
+use Adaehne\RiotApiWrapper\LOL\Options\MatchesOPT;
+use Adaehne\RiotApiWrapper\Regions;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
 
 class Matches
 {

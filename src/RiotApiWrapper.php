@@ -1,13 +1,13 @@
 <?php
 
-namespace Callisto\RiotApiWrapper;
+namespace Adaehne\RiotApiWrapper;
 
-use Callisto\RiotApiWrapper\LOL\LOL;
-use Callisto\RiotApiWrapper\Request\RequestCache;
-use Callisto\RiotApiWrapper\Request\RequestHandler;
-use Callisto\RiotApiWrapper\Request\RequestInitiator;
-use Callisto\RiotApiWrapper\Riot\Riot;
-use Callisto\RiotApiWrapper\TFT\TFT;
+use Adaehne\RiotApiWrapper\LOL\LOL;
+use Adaehne\RiotApiWrapper\Request\RequestCache;
+use Adaehne\RiotApiWrapper\Request\RequestHandler;
+use Adaehne\RiotApiWrapper\Request\RequestInitiator;
+use Adaehne\RiotApiWrapper\Riot\Riot;
+use Adaehne\RiotApiWrapper\TFT\TFT;
 use Symfony\Component\HttpClient\CachingHttpClient;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
