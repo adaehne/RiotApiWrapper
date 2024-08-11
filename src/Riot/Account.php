@@ -40,6 +40,7 @@ class Account
     public function byPuuid(string $puuid): mixed
     {
         $path = $this->setPath('/accounts/by-puuid/' . $puuid);
+
         return $this->requestHandler->getResponse($path);
     }
 
@@ -54,6 +55,17 @@ class Account
     public function byGame(string $game,string $puuid): mixed
     {
         $path = $this->setPath('/active-shards/by-game/' . $game . '/by-puuid/' . $puuid);
+
+        return $this->requestHandler->getResponse($path);
+    }
+
+    /**
+     * @throws RequestExceptions
+     */
+    public function byRiotId(string $gameName, string $tagLine): mixed
+    {
+        $path = $this->setPath(sprintf('/accounts/by-riot-id/%s/%s', $gameName, $tagLine));
+
         return $this->requestHandler->getResponse($path);
     }
 
